@@ -1,0 +1,45 @@
+.analysis-section {
+    background-color: #ffffff; /* Set your desired background color */
+    padding: 40px; /* Adjust the padding as needed */
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+.analysis-section:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+
+.analysis-section h2 {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0); /* Set the text color */
+    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+  } 
+
+
+.analysis-section p {
+    color: rgb(0, 0, 0); 
+    margin-bottom: 0;
+  }
+  
+.performance-item {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+.sales-report-image {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width if necessary */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+.user-satisfaction-image {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width if necessary */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }

@@ -1,0 +1,88 @@
+  .intro-content {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  .intro-content:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+  
+  .intro-text {
+    flex-grow: 1;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin between title and subtitle */
+  }
+  
+  .intro-subtitle {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin between subtitle and description */
+  }
+  
+  .intro-description {
+    font-size: 1rem; /* Adjust the font size as needed */
+    font-style: italic;
+  }
+  
+  .intro-image-container {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-right: 300px;  /*Add margin between text and image */
+  }
+  
+  .intro-image {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+    height: auto;
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+  }
+
+  .intro-button {
+    padding: 15px 30px; /* Adjust the padding as needed */
+    background-color: #610b5e; /* Purple color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    transition: background-color 0.3s; /* Add transition for smooth color change on hover */
+}
+
+  .intro-button:hover {
+    background-color: #41083e; /* Darker purple on hover */
+}
+
+
+
+  /* Media Query for Small Screens */
+@media only screen and (max-width: 600px) {
+  .intro-content {
+    margin: 10px;
+  }
+
+  .intro-image-container {
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .intro-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .intro-title {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .intro-subtitle {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .intro-description {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}

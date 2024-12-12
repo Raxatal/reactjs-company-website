@@ -1,0 +1,17 @@
+.footer-section {
+  background: #c2f1c4;
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally on smaller screens */
+}
+
+.footer-content p {
+  margin: 10px 0; /* Increase the margin for better spacing on smaller screens */
+}

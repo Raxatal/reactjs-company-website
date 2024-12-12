@@ -1,0 +1,54 @@
+.services-content {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+
+.services-content:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+  
+.services-title {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+.services-subtitle {
+    margin-bottom: 20px;
+  }
+  
+.services-image-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+  
+.service {
+    flex: 0 0 30%; /* 30% width for each service item */
+    text-align: center;
+  }
+  
+.service img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+.service p {
+    margin-top: 10px;
+  }
+
+
+
+  @media only screen and (min-width: 600px) {
+    .services-title {
+      font-size: 2.5rem; /* Restore font size for larger screens */
+    }
+  
+    .service {
+      flex: 0 0 30%; /* 30% width for each service item on larger screens */
+      margin-bottom: 0; /* Remove margin between service items on larger screens */
+    }
+  }

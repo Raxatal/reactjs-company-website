@@ -1,0 +1,179 @@
+.header-content {
+    background-color: #696894;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.logo-search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px; /* Adjust the width as needed */
+    background-color: #aaffaa; /* Light green color */
+    border: none;
+    border-radius: 5px;
+  }
+  
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #610b5e; /* Purple color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.search-bar button:hover {
+    background-color: #41083e; /* Darker purple on hover */
+  }
+  
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items in a column */
+  }
+  
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin between logo/search bar and nav-list */
+  }
+  
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px; /* Adjust the width as needed */
+    background-color: #aaffaa; /* Light green color */
+    border: none;
+    border-radius: 5px;
+  }
+  
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #610b5e; /* Purple color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.search-bar button:hover {
+    background-color: #41083e; /* Darker purple on hover */
+  }
+  
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; /* Add margin between search bar and nav-list */
+  }
+  
+.nav-list li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+.nav-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+.nav-list a:hover {
+    border-bottom: 2px solid white;
+  }
+
+/* Music Section */
+.music-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Add margin between nav-list and music section */
+}
+
+.music-icon {
+  width: 30px; /* Adjust the width as needed for your music icon */
+  height: auto;
+  margin-right: 10px;
+}
+
+.music-button {
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.music-button img {
+  width: 30px; /* Adjust the width as needed for your play/stop icons */
+  height: auto;
+}
+
+.music-button:hover img {
+  filter: brightness(1.5); /* Adjust brightness on hover */
+}
+
+.music-section p {
+  color: white;
+  margin: 0;
+}
+  
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Adjust margin for small screens */
+  }
+
+  .search-bar input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-bar button {
+    margin-top: 10px; /* Adjust margin for small screens */
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .nav-list li {
+    margin: 5px 0;
+  }
+
+  .music-section {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .music-button {
+    margin-top: 10px;
+  }
+
+  .music-icon {
+    margin-right: 5px;
+  }
+}

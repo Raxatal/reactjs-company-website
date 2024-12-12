@@ -1,0 +1,71 @@
+.our-company-section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Change to column to stack elements vertically */
+    align-items: center;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+.our-company-section:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+  
+.our-company-header {
+    font-size: 2.5rem;
+    text-align: center;
+}
+  
+.vision-mission-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+.vision-section,
+.mission-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+.vision-section h3,
+.mission-section h3 {
+    font-size: 1.5rem;
+  }
+  
+.vision-section .vision-content p,
+.mission-section .mission-content p {
+    margin-bottom: 20px;
+  }
+  
+
+
+  
+.youtube-section {
+    text-align: center;
+    margin-top: 40px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+
+.youtube-section iframe {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 100%; /* Set a maximum width if necessary */
+    aspect-ratio: 16 / 9; /* Set the aspect ratio to 16:9 for widescreen videos */
+    border: 10px solid #000000; /* Add a border to the iframe */
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+}
+
+
+@media only screen and (max-width: 600px) {
+  .youtube-section iframe {
+    width: 75%; /* Adjust the width as needed */
+    max-width: 100%; /* Set a maximum width if necessary */
+    aspect-ratio: 16 / 9; /* Set the aspect ratio to 16:9 for widescreen videos */
+    border: 10px solid #000000; /* Add a border to the iframe */
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+  }
+}

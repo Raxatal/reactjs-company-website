@@ -1,0 +1,46 @@
+.connect-with-us-section {
+    background: #fffefe; /* Replace with your desired color code */
+    padding: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+    margin: 20px;
+  }
+  
+.connect-with-us-section:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+  
+.connect-with-us-section h2 { 
+    font-size: 2.5rem;
+  }
+  
+  /* Styles for "Directions" section */
+.directions-section {
+    background-color: #ffffff; /* Set your desired background color */
+    color: #000000; /* Set text color to contrast with the background */
+    padding: 40px; /* Adjust the padding as needed */
+    text-align: center;
+  }
+
+.directions-section iframe{
+    max-width: 100%;
+  }
+  
+.infocompany {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+.social-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin: 0 10px; /* Adjust the margin between icons as needed */
+  }
